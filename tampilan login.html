@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+</head>
+<body>
+  <div class="container">
+    <div class="header-text">LOGIN</div>
+    
+    <label class="label" for="username">Username</label>
+    <div class="input-container">
+      <input type="text" id="username" class="input-field" placeholder="Enter your username">
+    </div>
+    
+    <label class="label" for="password">Password</label>
+    <div class="input-container">
+      <input type="password" id="password" class="input-field" placeholder="Enter your password">
+    </div>
+    
+    <button class="submit-button">Continue</button>
+  </div>
+</body>
+</html>
+<style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Inter, sans-serif;
+      background: #D5C0C0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+    .container {
+      width: 80%;
+      max-width: 800px;
+      height: auto;
+      background: #D5C0C0;
+      border-radius: 30px;
+      border: 2px solid black;
+      padding: 20px;
+      box-sizing: border-box;
+      position: relative;
+    }
+    .header-text {
+      font-size: 48px;
+      font-weight: 700;
+      color: black;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .label {
+      display: block;
+      color: black;
+      font-size: 18px;
+      font-weight: 700;
+      margin-bottom: 8px;
+    }
+    .input-container {
+      margin-bottom: 20px;
+    }
+    .input-field {
+      width: 100%;
+      height: 50px;
+      border: 1px solid #ccc;
+      border-radius: 15px;
+      padding: 0 15px;
+      font-size: 16px;
+      box-sizing: border-box;
+    }
+    .submit-button {
+      width: 100%;
+      height: 60px;
+      background: #4A3D3D;
+      border-radius: 15px;
+      color: #FFEBEB;
+      font-size: 24px;
+      font-weight: 700;
+      text-align: center;
+      line-height: 60px;
+      cursor: pointer;
+      border: none;
+      margin-top: 20px;
+    }
+    .submit-button:hover {
+      background: #6B4C4C;
+    }
+  </style>
